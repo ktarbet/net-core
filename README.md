@@ -12,6 +12,12 @@ https://www.microsoft.com/net/core#linuxcentos
     sudo yum update
     sudo yum install libunwind libicu
     sudo yum install dotnet-sdk-2.0.0
+    
+    
+    May need to add source to DataTableExtensions
+    https://github.com/dotnet/corefx/tree/master/src/System.Data.DataSetExtensions/src
+    
+    https://github.com/dotnet/corefx/issues/19771
 
 
 
