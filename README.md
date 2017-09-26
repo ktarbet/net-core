@@ -1,4 +1,7 @@
+
 # net-core
+
+.net core runtime is about 25 MB.  Much smaller than mono.  
 
 Instructions from here:   centos
 https://www.microsoft.com/net/core#linuxcentos
