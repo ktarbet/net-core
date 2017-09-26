@@ -1,6 +1,7 @@
 
 # net-core
 
+
 .net core runtime is about 25 MB.  Much smaller than mono.  
 
 Instructions from here:   centos
@@ -18,6 +19,10 @@ https://www.microsoft.com/net/core#linuxcentos
     
     
     May need to add source to DataTableExtensions
+    
+    https://github.com/dotnet/corefx.git
+    
+    Copied files from here , and hacked some String Resources named   'SR' to compile
     https://github.com/dotnet/corefx/tree/master/src/System.Data.DataSetExtensions/src
     
     https://github.com/dotnet/corefx/issues/19771
