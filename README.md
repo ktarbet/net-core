@@ -1,4 +1,3 @@
-
 # net-core
 
 
@@ -17,7 +16,8 @@ https://www.microsoft.com/net/core#linuxcentos
     sudo yum install libunwind libicu
     sudo yum install dotnet-sdk-2.0.0
     
-    
+
+## Hacking Pisces code to compile with .net core 2.0
     May need to add source to DataTableExtensions
     
     https://github.com/dotnet/corefx.git
