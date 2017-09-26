@@ -1,3 +1,4 @@
+
 # net-core
 
 
@@ -12,9 +13,13 @@ https://www.microsoft.com/net/core#linuxcentos
     sudo sh -c 'echo -e "[packages-microsoft-com-prod]\nname=packages-microsoft-com-prod \nbaseurl=https://packages.microsoft.com/yumrepos/microsoft-rhel7.3-prod\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/dotnetdev.repo'
 
 
-    sudo yum update
-    sudo yum install libunwind libicu
-    sudo yum install dotnet-sdk-2.0.0
+    yum update
+    yum install libunwind libicu
+    
+    yum install dotnet-sdk-2.0.0   # full SDK  133 M
+    or
+    yum install yum install dotnet-runtime-2.0.0   # basics   25 M
+
     
 
 ## Hacking Pisces code to compile with .net core 2.0
