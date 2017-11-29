@@ -1,4 +1,5 @@
 
+
 # net-core
 
 
@@ -32,7 +33,9 @@ https://www.microsoft.com/net/core#linuxcentos
     
     https://github.com/dotnet/corefx/issues/19771
 
-==== script file to start API --
+## script file to start API --
+
+
 ConnectionString=server=localhost;database=timeseries;user id=app_user
 PiscesAPIDatabase=postgresql
 /usr/bin/dotnet  /home/hydromet/bin/cgi/PiscesAPI/PiscesAPI.dll
