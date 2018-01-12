@@ -41,3 +41,6 @@ PiscesAPIDatabase=postgresql
 /usr/bin/dotnet  /home/hydromet/bin/cgi/PiscesAPI/PiscesAPI.dll
 
 
+# On Linux having trouble connecting from remote host.  
+I had to change the hosting.json to use actual IP address instead of locahost.
+
