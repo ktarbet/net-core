@@ -44,3 +44,7 @@ PiscesAPIDatabase=postgresql
 # On Linux having trouble connecting from remote host.  
 I had to change the hosting.json to use actual IP address instead of locahost.
 
+# using RHEL7/Centos7 to run asp.net
+
+https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache
+
