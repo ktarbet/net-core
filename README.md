@@ -1,5 +1,4 @@
 
-
 # net-core
 
 
@@ -47,4 +46,13 @@ I had to change the hosting.json to use actual IP address instead of locahost.
 # using RHEL7/Centos7 to run asp.net
 
 https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache
+
+
+
+# creating a wget re-play script from apache logs for testing memory usage and performance.
+
+ awk -F\" '{print $2}' /var/log/httpd/access_log-20180604 | awk  '{print "wget -O a.txt "$2}' > ./karl/replay
+ 
+ 
+
 
