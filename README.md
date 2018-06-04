@@ -53,6 +53,6 @@ https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache
 
  awk -F\" '{print $2}' /var/log/httpd/access_log-20180604 | awk  '{print "wget -O a.txt "$2}' > ./karl/replay
  
+ The output of this query is a script that can simulate doing 100,000+ queries on a test server.
  
-
 
