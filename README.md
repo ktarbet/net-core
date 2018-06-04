@@ -55,4 +55,15 @@ https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache
  
  The output of this query is a script that can simulate doing 100,000+ queries on a test server.
  
-
+ 
+ 
+ controlling GC memory from : https://github.com/dotnet/coreclr/issues/14738
+ 
+  "runtimeOptions": {
+    "configProperties": {
+      "System.GC.HeapCount": 5,
+      "System.GC.NoAffinitize": true, 
+      "System.GC.Server": true
+    }
+  }
+}
